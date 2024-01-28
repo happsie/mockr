@@ -1,0 +1,10 @@
+port: 8080
+
+db: 
+    user: postgres
+    password: hej123456
+    database: postgres
+    schema: templ
+    host: localhost
+    port: 5433
+    migration_src: file://migrations
